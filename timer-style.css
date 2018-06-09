@@ -1,0 +1,36 @@
+body {
+	color: #E36E6E;
+	max-width: 1250px;
+	background-color: #000;
+	margin: auto;
+}
+
+div, p {
+	display: flex;
+	justify-content: center;
+}
+
+p, button {
+	font-family: 'Play', sans-serif;
+}
+
+button {
+	padding: 16px 20px;
+}
+
+#gauge {
+	max-width: 100%;
+	border: 4px solid #E36E6E;
+	height: 80px;
+	justify-content: left;
+}
+#gauge-fill {
+	max-width: 100%;
+	height: 100%;
+	background-color: #E36E6E;
+}
+
+#timeDiv {
+	font-family: 'Lobster', cursive;
+	font-size: 64px;
+}

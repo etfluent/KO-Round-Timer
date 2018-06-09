@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Play" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="timer-style.css">
+</head>
+<audio id="beginBell">
+  <source src="assets/start-round.mp3">
+</audio>
+<audio id="endBell">
+  <source src="assets/end-round.mp3">
+</audio>
+<body>
+  <p>Minutes:</p>
+  <div><input type="number" id="timeInputMin" value="0"></div>
+  <p>Seconds:</p>
+  <div><input type="number" id="timeInputSec" value="0"></div>
+  <br>
+  <div><button id="startButton" onclick="document.getElementById('beginBell').play()">Start Timer</button></div>
+  <br>
+  <div id="timeDiv"><span id="time">00:00</span></div>
+  <div id="gauge"><div id="gauge-fill"></div></div>
+</body>
+
+<script src="timer-scripts.js"></script>
+</html>
