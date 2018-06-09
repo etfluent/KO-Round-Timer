@@ -5,14 +5,14 @@ Timer application with visualization and sounds
 
 
 
-Version
+**Version**
 
 
 1.0.0
 
 
 
-WIP
+**WIP**
 
 
 Hosted example,
@@ -23,7 +23,7 @@ Rest timer option
 
 
 
-CREDITS
+**CREDITS**
 
 
 Attribute some credit to a post, found:
